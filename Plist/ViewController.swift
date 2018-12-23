@@ -14,7 +14,26 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    
+    //MARK: Plist Read
+    func plistRead(){
+        
+    }
 
+    //MARK: Plist Write
+    func plistWrite() {
+        
+    }
+    
+    //MARK: Plist Update
+    func plistUpdate() {
+        
+    }
 
+    //MARK: Plist Delete
+    func plistDelete() {
+        
+    }
 }
 
