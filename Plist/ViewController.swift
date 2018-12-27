@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var dataDict: NSDictionary?
+        if let path = Bundle.main.path(forResource: "mydata", ofType: "plist") {
+            dataDict = NSDictionary(contentsOfFile: path)
+        }
+        
+        print(dataDict!)
     }
     
     

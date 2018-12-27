@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D26B08E21D545EE00BF44D1 /* mydata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D26B08D21D545EE00BF44D1 /* mydata.plist */; };
 		8DDAE06421CD45DA0097B5CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAE06321CD45DA0097B5CF /* AppDelegate.swift */; };
 		8DDAE06621CD45DA0097B5CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAE06521CD45DA0097B5CF /* ViewController.swift */; };
 		8DDAE06921CD45DA0097B5CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDAE06721CD45DA0097B5CF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D26B08D21D545EE00BF44D1 /* mydata.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = mydata.plist; sourceTree = "<group>"; };
 		8DDAE06021CD45D90097B5CF /* Plist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDAE06321CD45DA0097B5CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DDAE06521CD45DA0097B5CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				8DDAE06321CD45DA0097B5CF /* AppDelegate.swift */,
 				8DDAE06521CD45DA0097B5CF /* ViewController.swift */,
+				8D26B08D21D545EE00BF44D1 /* mydata.plist */,
 				8DDAE06721CD45DA0097B5CF /* Main.storyboard */,
 				8DDAE06A21CD45DC0097B5CF /* Assets.xcassets */,
 				8DDAE06C21CD45DC0097B5CF /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				8DDAE06E21CD45DC0097B5CF /* LaunchScreen.storyboard in Resources */,
 				8DDAE06B21CD45DC0097B5CF /* Assets.xcassets in Resources */,
+				8D26B08E21D545EE00BF44D1 /* mydata.plist in Resources */,
 				8DDAE06921CD45DA0097B5CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
