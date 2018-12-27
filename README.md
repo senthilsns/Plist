@@ -1,2 +1,3 @@
-# Plist
-Plist - Read Write Update Delete
+# Plist 
+
+Plist (Property List) - Read Write Update Delete
